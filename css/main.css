@@ -1,0 +1,37 @@
+:root {
+    --primary-color: #1F1F1F;
+    --secondary-color: #333333;
+    --primary-font-color: #FFFFFF;
+    --secondary-font-color: #E65F78;
+}
+
+
+body {
+    background-color: var(--primary-color);
+}
+.container {
+    width: 1440px;
+    height: 100px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 1000px;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-nav-list {
+    display: flex;
+    color: var(--primary-font-color);
+    list-style: none;
+    gap: 50px;
+}
