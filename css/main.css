@@ -3,12 +3,17 @@
     --secondary-color: #333333;
     --primary-font-color: #FFFFFF;
     --secondary-font-color: #E65F78;
+    
 }
 
 
 body {
     background-color: var(--primary-color);
+    color: var(--primary-font-color);
+    font-family: 'Open Sans';
 }
+/* header */
+
 .container {
     width: 1440px;
     height: 100px;
@@ -28,10 +33,44 @@ body {
     align-items: center;
 }
 
-
 .header-nav-list {
     display: flex;
     color: var(--primary-font-color);
     list-style: none;
     gap: 50px;
+}
+/* end: header */
+
+/* Div */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+.main {
+    width: 1440px;
+    height: 924px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+}
+
+.name {
+    font-size: 72px;
+    font-weight: bolder;
+}
+
+span {
+    color: var(--secondary-font-color);
+}
+.work {
+    font-size: 24px;
+    font-weight: 100;
+}
+.arrow {
+    margin-bottom: 100px;
 }
