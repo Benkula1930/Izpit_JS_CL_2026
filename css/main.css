@@ -74,3 +74,49 @@ span {
 .arrow {
     margin-bottom: 100px;
 }
+
+/* end: main-container */
+
+/* Contact */
+
+.contact-container {
+    width: 1440px;
+    height: 675px;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 50px;
+}
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+}
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+.title-p {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    width: 700px;
+
+    line-height: 1.6;
+}
+.btn {
+    background-color: var(--secondary-font-color);
+    padding: 14px;
+    border-radius: 3px;
+    width: 142px;
+    text-align: center;
+}
+.social {
+    margin-top: 30px;
+}
